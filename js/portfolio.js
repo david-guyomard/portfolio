@@ -5,4 +5,7 @@ $(document).ready(function(){
     $("#cvLink").click(function(){
         $("#modalCv").modal('show')
     });
+    $("#profilePics").click(function(){
+        $("#modalPics").modal('show');
+    })
 });
