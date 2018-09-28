@@ -13,7 +13,7 @@
 </head>
 
 <body>
-	<div style="position:absolute; top : 0px; left: 0px; z-index: 99999; color: red; font-weight: bolder;">
+	<div style="position:sticky; top : 0px; left: 0px; z-index: 99999; color: red; font-weight: bolder;">
 		<span class="d-block d-sm-none d-md-none d-lg-none d-xl-none">XS</span>
 		<span class="d-none d-sm-block d-md-none d-lg-none d-xl-none">SM</span>
 		<span class="d-none d-sm-none d-md-block d-lg-none d-xl-none">MD</span>
@@ -31,10 +31,10 @@
 						</a>
 					</div>
 					<div class="col-lg-6 col-xl-4 text-center align-self-center text-light">
-						<a href="#aPropos"><button type="button" class="btn btn-dark">Compétences</button></a>
+						<a href="#competences"><button type="button" class="btn btn-dark">Compétences</button></a>
 					</div>
 					<div class="col-lg-6 col-xl-4 text-center align-self-center text-light">
-						<a href="#mesProjets"><button type="button" class="btn btn-dark">Projet</button></a>
+						<a href="#mesProjets"><button type="button" class="btn btn-dark">Projets</button></a>
 					</div>
 				</div>
 			</div>
@@ -83,35 +83,96 @@
 	</div>
 
 
-	<div class="container-fluid" id="aPropos">
+	<div class="container-fluid" id="competences">
 		<div class="row mx-auto mt-5">
-			<div class="col text-center mt-5">
+			<div class="col-12 text-center mt-5">
 				<h1>Compétences</h1>
 			</div>
 		</div>
+		<div class="col-12 text-center mt-5">
+			<h3><u>En developpement</u></h3>
+		</div>
 		<div class="row justify-content-center text-center">
-			<div class="w-100">HTML5</div>
+			<div class="w-100 mt-3">HTML5</div>
 			<div class="progress col-6 p-0">
 				<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0"
-				 aria-valuemax="100" style="width: 50%"></div>
+				 aria-valuemax="100" style="width: 50%">50%</div>
 			</div>
-			<div class="w-100">CSS</div>
+			<div class="w-100 mt-3">CSS</div>
 
 			<div class="progress col-6 p-0">
 				<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0"
-				 aria-valuemax="100" style="width: 50%"></div>
+				 aria-valuemax="100" style="width: 50%">50%</div>
 			</div>
-			<div class="w-100">Javascript</div>
+			<div class="w-100 mt-3">Javascript</div>
 
 			<div class="progress col-6 p-0">
 				<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0"
-				 aria-valuemax="100" style="width: 50%"></div>
+				 aria-valuemax="100" style="width: 50%">50%</div>
 			</div>
-			<div class="w-100">PHP</div>
-
+			<div class="w-100 mt-3">Bootstrap</div>
 			<div class="progress col-6 p-0">
 				<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0"
-				 aria-valuemax="100" style="width: 0%"></div>
+				 aria-valuemax="100" style="width: 50%">50%</div>
+			</div>
+			<div class="w-100 mt-3">PHP</div>
+			<div class="progress col-6 p-0">
+				<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0"
+				 aria-valuemax="100" style="width: 0%">0%</div>
+			</div>
+		</div>
+		<div class="col-12 text-center mt-5">
+			<h3><u>Au travail</u></h3>
+		</div>
+		<div class="row justify-content-center text-center">
+			<div class="w-100 mt-3">Assiduité</div>
+			<div class="progress col-6 p-0">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuemin="0"
+				 aria-valuemax="100" style="width: 99.9%">99.9%</div>
+			</div>
+			<div class="w-100 mt-3">Relationnel</div>
+
+			<div class="progress col-6 p-0">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuemin="0"
+				 aria-valuemax="100" style="width: 90%">90%</div>
+			</div>
+			<div class="w-100 mt-3">Travail en équipe</div>
+
+			<div class="progress col-6 p-0">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuemin="0"
+				 aria-valuemax="100" style="width: 99.9%">99.9%</div>
+			</div>
+			<div class="w-100 mt-3">Capacité d'adaptation</div>
+			<div class="progress col-6 p-0">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuemin="0"
+				 aria-valuemax="100" style="width: 90%">90%</div>
+			</div>
+			<div class="w-100 mt-3">Aisance à l'oral</div>
+			<div class="progress col-6 p-0">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" aria-valuemin="0"
+				 aria-valuemax="100" style="width: 80%">80%</div>
+			</div>
+		</div>
+		<div class="col-12 text-center mt-5">
+			<h3><u>Langues</u></h3>
+		</div>
+		<div class="row justify-content-center text-center">
+			<div class="w-100 mt-3">Français</div>
+			<div class="progress col-6 p-0">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuemin="0"
+				 aria-valuemax="100" style="width: 99.9%">99.9%</div>
+			</div>
+			<div class="w-100 mt-3">Anglais</div>
+
+			<div class="progress col-6 p-0">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuemin="0"
+				 aria-valuemax="100" style="width: 70%">70%</div>
+			</div>
+			<div class="w-100 mt-3">Espagnol</div>
+
+			<div class="progress col-6 p-0">
+				<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" aria-valuemin="0"
+				 aria-valuemax="100" style="width: 70%">70%</div>
 			</div>
 		</div>
 
@@ -119,9 +180,9 @@
 
 
 	<div class="container-fluid " id="mesProjets">
-		<div class="row mx-auto mt-5">
+		<div class="row mt-3">
 			<div class="col text-center mt-5">
-				<h1>Projet</h1>
+				<h1>Projets</h1>
 			</div>
 		</div>
 		<div class="row mx-auto mt-3">
@@ -144,26 +205,43 @@
 
 
 	<div class="container-fluid" id="mesExperiences">
-		<div class="row mx-auto mt-5">
+		<div class="row mt-5">
 			<div class="col text-center mt-5">
 				<h1>Experiences</h1>
 			</div>
 		</div>
-		<div class="row mx-auto mt-3">
-			<div class="col text-center">L'Éternel Dieu fit pousser du sol des arbres de toute espèce, agréables à voir et bons
-				à
-				manger,
-				et l'arbre de la vie au milieu du jardin, et l'arbre de la connaissance du bien et du mal.</div>
+		<div class="row mt-3">
+			<div class="col text-center mt-5">
+				<h3><u>En tant que developpeur...</u></h3>
+			</div>
 			<div class="w-100"></div>
-			<div class="col text-center">D'entre les animaux purs et les animaux qui ne sont pas purs, les oiseaux et tout ce
-				qui se
-				meut
-				sur la terre,</div>
+			<div class="col text-center mt-2">Dev junior full stack -Groupe RHINOS - La Rochelle</div>
 			<div class="w-100"></div>
-			<div class="col text-center">Kénan vécut, après la naissance de Mahalaleel, huit cent quarante ans ; et il engendra
-				des
-				fils
-				et des filles.</div>
+			<div class="col text-center mt-2">dev junior full stack -</div>
+			<div class="w-100"></div>
+			<div class="col text-center mt-2">dev junior full stack -</div>
+			<div class="w-100"></div>
+			<div class="col text-center mt-2">dev junior full stack -</div>
+			<div class="w-100"></div>
+			<div class="col text-center mt-5">
+				<h3><u>Autres experiences</u></h3>
+			</div>
+			<div class="w-100"></div>
+			<div class="col text-center mt-2">Monteur de meuble - BUT - Royan</div>
+			<div class="w-100"></div>
+			<div class="col text-center mt-2">Chauffeur-livreur - EDITION OCEANE - Saintes</div>
+			<div class="w-100"></div>
+			<div class="col text-center mt-2">Cuisinier - BUFFALO GRILL - Saintes</div>
+			<div class="w-100"></div>
+			<div class="col text-center mt-2">Monteur de meuble - BUT - Royan</div>
+			<div class="w-100"></div>
+			<div class="col text-center mt-2">Commercial terrain - ENGIE - Charente-Maritime</div>
+			<div class="w-100"></div>
+			<div class="col text-center mt-2">Agent de sécurité inciendie SSIAP 1 - plusieurs sites</div>
+			<div class="w-100"></div>
+			<div class="col text-center mt-2"> Employé logistique / SAV - FNAC - C.C Villebon 2</div>
+			<div class="w-100"></div>
+			<div class="col text-center mt-2">Equipier polyvalent - MAC DONALD'S - C.C Villebon 2</div>
 		</div>
 	</div>
 
