@@ -31,7 +31,7 @@
 						</a>
 					</div>
 					<div class="col-lg-6 col-xl-4 text-center align-self-center text-light">
-						<a href="#aPropos"><button type="button" class="btn btn-dark">A propos de moi</button></a>
+						<a href="#aPropos"><button type="button" class="btn btn-dark">Compétences</button></a>
 					</div>
 					<div class="col-lg-6 col-xl-4 text-center align-self-center text-light">
 						<a href="#mesProjets"><button type="button" class="btn btn-dark">Projet</button></a>
@@ -84,22 +84,35 @@
 	<div class="container-fluid" id="aPropos">
 		<div class="row mx-auto mt-5">
 			<div class="col text-center mt-5">
-				<h1>A propos de moi</h1>
+				<h1>Compétences</h1>
 			</div>
 		</div>
-		<div class="row mx-auto mt-3">
-			<div class="col text-center">Ton chien, il ne reviendra plus car si tu veux faire mieux, va falloir t'y mettre.
-				Et pépé, tu sais qu'il est parti hier dans la salle de bain !</div>
-			<div class="w-100"></div>
-			<div class="col text-center">Ton hamster, il n'aime pas quand tu t'en occupes un peu trop et il sera toujours le
-				meilleur,
-				contrairement à toi ! Et René, après avoir dansé avec Janine, il a fini la soirée en regardant la Star Academy !</div>
-			<div class="w-100"></div>
-			<div class="col text-center">Ton grand frère, il a pris un bateau histoire de prendre le large car il ne tourne pas
-				mal
-				lui au moins.
-				Et Jano, il a fini la soirée dans la salle de bain !</div>
+		<div class="row justify-content-center text-center">
+			<div class="w-100">HTML5</div>
+			<div class="progress col-6 p-0">
+				<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0"
+				 aria-valuemax="100" style="width: 50%"></div>
+			</div>
+			<div class="w-100">CSS</div>
+
+			<div class="progress col-6 p-0">
+				<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0"
+				 aria-valuemax="100" style="width: 50%"></div>
+			</div>
+			<div class="w-100">Javascript</div>
+
+			<div class="progress col-6 p-0">
+				<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0"
+				 aria-valuemax="100" style="width: 50%"></div>
+			</div>
+			<div class="w-100">PHP</div>
+
+			<div class="progress col-6 p-0">
+				<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuemin="0"
+				 aria-valuemax="100" style="width: 0%"></div>
+			</div>
 		</div>
+
 	</div>
 	<div class="container-fluid " id="mesProjets">
 		<div class="row mx-auto mt-5">
@@ -154,13 +167,6 @@
 
 
 
-	<!--<div class="progress">
-  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-</div>-->
-
-
-
-
 
 	<div class="container">
 		<div class="row mt-5">
@@ -191,14 +197,15 @@
 		</div>
 	</div>
 
-	
+
 	<div class="container">
 		<div class="row mt-5">
-			<div class="modal fade" id="modalPics" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+			<div class="modal fade" id="modalPics" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+			 aria-hidden="true">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
 						<div class="modal-header">
-						<div class="modal-title">Photo de profil réalisée par Polygonize</div>
+							<div class="modal-title">Photo de profil réalisée par Polygonize</div>
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 								<span aria-hidden="true">&times;</span>
 							</button>
@@ -212,82 +219,82 @@
 					</div>
 				</div>
 			</div>
-	</div>
+		</div>
 
 
-	<div class="container">
-		<div class="modal fade row no-gutters" id="modalShow">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<button type="button" id="closeButton" class="close" aria-label="Close" data-dismiss="modal">
-						<span aria-hidden="true">&times;</span>
-					</button>
-					<form class=" needs-validation rounded border border-dark bg-dark text-light col-12" novalidate>
-						<div class="form-row">
-							<div class="col-md-6 mb-3">
-								<label for="validationCustom01">Nom :</label>
-								<input type="text" class="form-control" id="validationCustom01" placeholder="Nom" value="" required>
-								<div class="valid-feedback">
-									Ca semble bon !
-								</div>
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="col-md-6 mb-3">
-								<label for="validationCustom02">Prenom :</label>
-								<input type="text" class="form-control" id="validationCustom02" placeholder="Prenom" value="" required>
-								<div class="valid-feedback">
-									Ca semble bon !
-								</div>
-							</div>
-						</div>
-						<div class="form-row">
-							<div class="col-md-6 mb-3">
-								<label for="validationCustomUsername">E-mail :</label>
-								<div class="input-group">
-									<div class="input-group-prepend">
-										<span class="input-group-text" id="inputGroupPrepend">@</span>
+		<div class="container">
+			<div class="modal fade row no-gutters" id="modalShow">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<button type="button" id="closeButton" class="close" aria-label="Close" data-dismiss="modal">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<form class=" needs-validation rounded border border-dark bg-dark text-light col-12" novalidate>
+							<div class="form-row">
+								<div class="col-md-6 mb-3">
+									<label for="validationCustom01">Nom :</label>
+									<input type="text" class="form-control" id="validationCustom01" placeholder="Nom" value="" required>
+									<div class="valid-feedback">
+										Ca semble bon !
 									</div>
-									<input type="text" class="form-control" id="validationCustomUsername" placeholder="E-mail" aria-describedby="inputGroupPrepend"
-									 required>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="col-md-6 mb-3">
+									<label for="validationCustom02">Prenom :</label>
+									<input type="text" class="form-control" id="validationCustom02" placeholder="Prenom" value="" required>
+									<div class="valid-feedback">
+										Ca semble bon !
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="col-md-6 mb-3">
+									<label for="validationCustomUsername">E-mail :</label>
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text" id="inputGroupPrepend">@</span>
+										</div>
+										<input type="text" class="form-control" id="validationCustomUsername" placeholder="E-mail" aria-describedby="inputGroupPrepend"
+										 required>
+										<div class="invalid-feedback">
+											Mettez un E-mail valide svp.
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="form-row">
+								<div class="col-md-6 mb-3">
+									<label for="validationCustom03">Contenu :</label>
+									<textarea id="validationCustom03" class="form-control" placeholder="Inserer votre contenu" required></textarea>
+
+								</div>
+							</div>
+
+							<div class="form-group">
+								<div class="form-check">
+									<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+									<label class="form-check-label" for="invalidCheck">
+										Vous acceptez les termes et conditions d'utilisitation.
+									</label>
 									<div class="invalid-feedback">
-										Mettez un E-mail valide svp.
+										Vous devez agréer avant d'envoyer le formulaire.
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="form-row">
-							<div class="col-md-6 mb-3">
-								<label for="validationCustom03">Contenu :</label>
-								<textarea id="validationCustom03" class="form-control" placeholder="Inserer votre contenu" required></textarea>
-
-							</div>
-						</div>
-
-						<div class="form-group">
-							<div class="form-check">
-								<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-								<label class="form-check-label" for="invalidCheck">
-									Vous acceptez les termes et conditions d'utilisitation.
-								</label>
-								<div class="invalid-feedback">
-									Vous devez agréer avant d'envoyer le formulaire.
-								</div>
-							</div>
-						</div>
-						<button class="btn btn-primary" type="submit">Envoyer le formulaire</button>
-					</form>
+							<button class="btn btn-primary" type="submit">Envoyer le formulaire</button>
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-	 crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-	 crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-	 crossorigin="anonymous"></script>
-	<script src="js/portfolio.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		 crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		 crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		 crossorigin="anonymous"></script>
+		<script src="js/portfolio.js"></script>
 </body>
 
 
