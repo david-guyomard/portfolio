@@ -8,10 +8,10 @@ $(document).ready(function () {
     $("#profilePics").click(function () {
         $("#modalPics").modal('show');
     });
-    $("#my-parallax").parallax({
-  height : "500",
-  scroll : "manual"
-    });
+    $(".parallax-window").parallax({
+        naturalWidth: 600,
+        naturalHeight: 400
+      });
     /*$("#competences, #mesProjets, #mesExperiences").parallax({
         image: "parallax/demo/images/samples/2.jpg",
         height: "400px",
