@@ -2,4 +2,49 @@
 	min-height: 400px;
 	background: transparent;
 }
+/*.white-parallax {
+	background: rgba(255,255,255,0.3);
+}*/
+a, a:hover {
+	color:white !important;
+	text-decoration: none !important;
+}
+.blue-bar {
+	background-color: #2279d6 !important;
+}
+.green-bar {
+	background-color: #4c934f !important;
+}
+.red-bar {
+	background-color: #b63d49 !important;
+}
 
+#loi {
+	font-size: 8px;
+}
+#myName {
+	font-size: 50px; 
+	font-family: 'Acme', sans-serif;
+}
+h1, h3 {
+	font-family: 'Signika', sans-serif !important;
+}
+.job {
+	font-size: 50px;
+	font-family: 'Acme', sans-serif;
+}
+.progress {
+	background-color: #373c42 !important;
+}
+.w-100 {
+	font-family: 'El Messiri', sans-serif;
+}
+.work {
+	font-family: 'Arima Madurai', cursive !important;
+}
+.dev {
+	font-family: 'Baloo Bhaijaan', cursive !important;
+}
+#bg, #bg2 {
+	background-color: #c6c6c6ab;
+}
